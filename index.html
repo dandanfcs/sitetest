@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" type="text/css" href="./normalize.css">
+    <link rel="stylesheet" href="main.css">
+    <title>Flor de Cerejeira</title>
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+
+    <!-- ESTILOS PARA ESTA PÁGINA -->
+    <!-- Nesse caso, este estilo é apenas para inserir imagens -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <!-- JAVASCRIPT E JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <header>
+
+        <!-- INÍCIO DO MENU SUPERIOR -->
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#links-menu" style="background-color: white;">
+					<i class="material-icons">menu</i>
+				</button>
+                </div>
+
+
+                <nav id="links-menu" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right" style="font-weight: bold;">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#sobre">Quem Somos</a></li>
+                        <li><a href="#services">Serviços</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </nav>
+        <!--------------------- FIM DO MENU SUPERIOR ----------------------->
+
+
+    </header>
+    <main>
+        <!-------------------------------------------SLIDE INICIAL----------------------------------------->
+        <section id="home" class="hero">
+            <h1>Desenvolvimento Web </h1>
+            <h3>Design Responsivo</h3>
+
+        </section>
+
+
+        <!--------------------SOBRE MIM ---------------------------->
+        <section id="sobre">
+            <h2>Sobre mim </h2>
+
+            <div class="bloco">
+
+
+                <div class="sobremim">
+
+
+
+                    <p>
+                        Somos uma empresa com viés social que visa promover as terapias holísticas a todas as pessoas que queiram tratamento complementar ou trabalhar o seu desenvolvimento, por valores acessíveis e com toda qualidade e comprometimento que elas merecem.
+
+                    </p>
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-------------------------------------------SEÇÃO NOSSOS SERVIÇOS----------------------------------------->
+
+        <section id="ns">
+            <h2>Nossos Serviços</h2>
+            <div class="service">
+                <div class="boxservice">
+                    <div class="iconimg">
+                        <img src="./aaa.png" alt="icone">
+                    </div>
+                    <div class="textservice">
+                        <h3>Desenvolvimento Web</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse maiores, numquam cumque provident vel ratione molestias vero voluptatem ab quis rerum amet maxime ut itaque ad! Vel ipsa omnis animi?</p>
+                    </div>
+                </div>
+
+                <div class="boxservice">
+                    <div class="iconimg">
+                        <img src="./mobile.png" alt="icone">
+                    </div>
+                    <div class="textservice">
+                        <h3>Desenvolvimento Mobile</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores corporis assumenda quas facilis. Recusandae odit voluptatem culpa iusto at aliquam ex! Ut quis iste eveniet. Veniam tempore veritatis consectetur eveniet?</p>
+                    </div>
+                </div>
+
+                <div class="boxservice">
+                    <div class="iconimg">
+                        <img src="./ecomerce.jpg" alt="icone">
+                    </div>
+                    <div class="textservice">
+                        <h3>E-commerce</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus commodi perspiciatis sequi delectus vel aliquid molestias, fuga dolores hic velit ut autem cumque labore odit quod, cupiditate voluptatum ab est.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-------------------------------------------SLIDE EM JAVASCRIPT DESCREVENDO SERVIÇOS----------------------------------------->
+        <section id="slide">
+
+            <button id="prev" onclick="Prev()" class="btn"> &#60;</button>
+
+            <div id="l1" class="l1">
+
+
+                <div id="l2" class="text">
+                    <h2>Desevolvimento-Web</h2>
+                    <P>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi iure nisi porro rem possimus, voluptatem quisquam at recusandae molestiae minima enim doloribus numquam, fuga temporibus sed reiciendis obcaecati, labore praesentium.
+
+                    </P>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, explicabo iure sed dolores facere accusantium deserunt. Odio delectus fuga laboriosam provident! Facilis unde facere aliquam quidem aperiam soluta velit placeat.</p>
+                </div>
+
+
+                <div class="divimg">
+                    <img src="./web.png" alt="" id="img">
+                </div>
+
+
+            </div>
+
+            <button id="next" onclick="Next()" class="btn">	&#62;</button>
+
+
+
+            <script src="trocadiv.js"></script>
+        </section>
+
+        <!----------------------------------------SEÇÃO DE COMENTÁRIOS------------------------------------------>
+
+        <section id="comentario">
+            <h2>Comentários</h2>
+
+            <div id="bloco-comentario">
+
+                <div class="foto-comentario">
+                    <img src="./c1.png" alt="" id="img-coment">
+                </div>
+                <div class="text-comentario" id="text-comentario">
+                    <h3>Maiki da Baguncinha</h3>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda ad architecto repellat voluptatibus cupiditate temporibus soluta, rem ipsam corrupti rerum itaque beatae vel sapiente non veniam exercitationem molestias modi at!
+                    </p>
+
+                </div>
+
+            </div>
+            <div class="op-comentario">
+                <input type="radio" name="opc" id="opc1" onclick="opc1()" checked>
+                <input type="radio" name="opc" id="opc2" onclick="opc2()">
+                <input type="radio" name="opc" id="opc3" onclick="opc3()">
+
+
+            </div>
+
+            <script src="./cometario.js"></script>
+
+        </section>
+
+        <!----------------------------------------SEÇÃO DE CONTATO-------------------------------------------->
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <div class="boxcontato">
+                <form action="">
+                    <h3>Fale Conosco!</h3> <br> Nome:
+                    <input type="text"> <br> E-mail:
+                    <input type="text"> <br> Telefone: <input type="text"> <br> Mensagem: <textarea rows="5">
+                      
+                  </textarea>
+
+                    <input type="submit" value="Enviar" id="btn-enviar">
+
+                </form>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1067.599635936477!2d-43.94195256197843!3d-19.92602843386117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa699e1ac95e9bd%3A0x6b74eb86abb6030d!2sRua%20dos%20Timbiras%2C%201986%20-%20Funcion%C3%A1rios%2C%20Belo%20Horizonte%20-%20MG%2C%2030140-061!5e0!3m2!1spt-BR!2sbr!4v1590686646760!5m2!1spt-BR!2sbr"
+                width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </section>
+
+
+
+    </main>
+
+    <!------------------------------------------RODAPÉ ------------------------>
+    <footer class="rodape">
+        <div class="rodape__linha1">
+            <div>
+                <h2> Localização</h2>
+                <p>Rua Timbiras 1986, lj 36 (segundo piso), Lourdes, Belo Horizonte- MG, 30140-061
+
+                </p>
+            </div>
+
+            <div>
+                <h2>Social</h2>
+                <ul>
+                    <li>
+                        <a href=""> <img src="face.png" alt=""> Facebook</a>
+                    </li>
+                    <li>
+                        <a href=""> <img src="insta.png" alt=""> Instagram</a>
+                    </li>
+                    <li>
+                        <a href=""> <img src="./youtube.png" alt=""> Youtube</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h2>Seções</h2>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Quem Somos</a></li>
+                    <li><a href="">Serviços</a></li>
+                    <li><a href="">Contato</a></li>
+
+                </ul>
+            </div>
+
+        </div>
+        <!----------------------------------------------COPYRIGHT------------------------->
+        <div class="rodape__linha2">2020 - Todos os Direitos reservador - Daniel Fernandes</div>
+    </footer>
+
+</body>
+
+</html>
